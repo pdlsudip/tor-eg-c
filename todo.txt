@@ -1,0 +1,5 @@
+define proxy ip and add
+define sockaddr_in struct with ip_addr and port
+intialize socket socket(AF_INET, SOCKSTREAM, 0)
+Connect to proxy using connect() function connect(socket, (struct sockaddr*)&sock, sizeof(struct sock))
+
